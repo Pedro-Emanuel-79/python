@@ -1,0 +1,11 @@
+import os
+os.system ("cls")
+print("\n\n\tAlgoritmo que calcula a média ponderada de 3 notas de 1 aluno")
+nota1 = float(input("\nColoque a primeira nota do aluno: "))
+nota2 = float(input("\nColoque a segunda nota do aluno: "))
+nota3 = float(input("\nColoque a terceira nota do aluno: "))
+peso_nota1 = int(input("\nColoque o peso da primeira nota do aluno: "))
+peso_nota2 = int(input("\nColoque o peso da segunda nota do aluno: "))
+peso_nota3 = int(input("\nColoque o peso da terceira nota do aluno: "))
+media = (nota1 * peso_nota1 + nota2 * peso_nota2 + nota3 * peso_nota3) / (peso_nota1 + peso_nota2 + peso_nota3)
+print(f"A média das 3 notas vai ser {media}")
